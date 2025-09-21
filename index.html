@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semana 1</title>
-    <!-- Como norma del curso: se enruta el JS en el <HEAD> -->
+    <!-- Como norma del curso: se enruta el JS en el <HEAD>, con los atrb async y defer no es necesario poner el script en otro lugar (al menos x) -->
     <!-- js -->
     <script defer src="./js/main.js"></script>
-    <!-- el defer hace que 1ro se cargue toda la web y que recien al final el navegador cargue el js. tambiene está el attr assync q lo vemos mas adelante -->
+    <!-- el DEFER hace que 1ro se cargue toda la web y que recien al final el navegador cargue el js.
+     el ASYNC hace que el script se cargue en el momento en que el cabezal se topa con la línea, pero sigue cargando el resto del html sin esperar que termine de cargar el js. el js se ejecuta tan pronto como esté disponible. Puede generar errores porque el cabezal puede llamar funciones que todavía no terminaron de cargarse... lo vamos a ver más adelante para casos puntuales.
+     -->
 </head>
 
 <body>

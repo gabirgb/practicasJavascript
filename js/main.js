@@ -25,3 +25,9 @@ let nacimiento= parseInt(prompt("Ingrese su año de nacimiento"))
 let anio_actual= parseInt(prompt("Ingrse el año actual"))
 let edad= anio_actual - nacimiento
 alert("usted tiene "+edad+" años")
+
+//las constantes se declaran con const y su valor nunca cambia luego de ser inicializado
+// let nombre -> declaracion
+// let nombre = "Pepito" -> declaracion e inicializacion
+// null: representa un valor nulo.
+// undefined: indica que una variable no tiene asignado un valor. 
