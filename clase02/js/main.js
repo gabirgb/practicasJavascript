@@ -93,6 +93,7 @@ while (continuar){
 }
 
 // Switch-case -> condicional. Eecuta TODO lo que hay desde el punto en el que ingresa para abajo, salvo que lo frenemos al fin de cada case. Es en el unico caso donde se utiliza un break. Despues del default no hace falta porque despues no hay mas nada...
+// La idea es que el case solo tenga las llamadas a las funciones asi queda cortito y legible, sino pasa igual que con los if/else q se llenan de código kilometrico.
 
 let menu = parseInt(prompt("Ingrese 1 para ver su cuenta, 2 para extraccion, 3 para deposito, otro numero para salir"))
 
